@@ -21,17 +21,17 @@ alert_sound_path = "Police Siren Ringtone Download - MobCup.Com.Co.mp3"  # Repla
 alert_sound = pygame.mixer.Sound(alert_sound_path)
 
 # Email configuration (replace with your actual email credentials and settings)
-email_address = "shambhurajerdeshmukh@coep.sveri.ac.in"
-email_password = "Shambhu@8625"
-smtp_server = "smtp.gmail.com"
+email_address = ""
+email_password = ""
+smtp_server = ""
 smtp_port = 587
-owner_email = "akshay61740@gmail.com"
+owner_email = ""
 
 # Twilio configuration (replace with your actual Twilio credentials and numbers)
-twilio_account_sid = "AC004583e4c1f2fe511a92f9ada4d530d7"
-twilio_auth_token = "bbf282ea9ac36afa1a492f491de54244"
-twilio_whatsapp_number = "whatsapp:+14155238886"
-your_whatsapp_number = "whatsapp:+919172611036"  # Replace with the owner's WhatsApp number
+twilio_account_sid = ""
+twilio_auth_token = ""
+twilio_whatsapp_number = ""
+your_whatsapp_number = ""  # Replace with the owner's WhatsApp number
 
 client = Client(twilio_account_sid, twilio_auth_token)
 
